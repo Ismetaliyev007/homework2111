@@ -1,11 +1,13 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: turquoise;
 }
+
 header {
     display: block;
-    
+
 }
+
 nav {
     position: fixed;
     width: 100%;
@@ -15,7 +17,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: rgb(47, 164, 152);
-    z-index: 999;
+    z-index: 9999;
     margin: 0 0 30px;
 }
 
@@ -24,70 +26,182 @@ nav {
     padding: 10px;
     transition: 0.8s;
 }
-.logo:hover{
-    transition:1s;
+
+.logo:hover {
+    transition: 1s;
     width: 100px;
 }
+
 form {
     display: flex;
     align-items: center;
     justify-self: center;
 }
+
 .search {
+    border: 1px solid #fff;
     width: 300px;
-    box-shadow: 0 5px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 3);
     border-radius: 50px;
     height: 25px;
 }
+
 .searchbtn {
     width: 110px;
-    box-shadow: 0 5px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 3);
     border-radius: 50px;
     height: 25px;
+    background-color: #C2B25E;
+    border: 1px solid #C2B25E;
+    transition: 0.5s;
+    color: #fff;
+    margin-left: 10px;
 }
+
+.searchbtn:visited {
+    color: #fff;
+    background-color: #C2B25E;
+
+}
+
+
 .searchbtn:hover {
     width: 120px;
     transition: 0.5s;
     height: 28px;
 }
+
 .HCA {
+
+    justify-content: end;
     text-decoration: solid;
-    color: green;
+    color: #C2B25E;
     padding-right: 20px;
     gap: 20px;
     font-size: 2em;
     transition: 0.5s;
 }
+
 .HCA:hover {
-    color: rgb(1, 73, 1);
+    color: #5a522c;
     transition: 0.5s;
     font-size: 2.5em;
 }
+
+.section3 {
+    padding-top: 130px;
+}
+
+.mainphoto {
+    position: ;
+    width: 800px;
+    position: absolute;
+    margin-left: 300px;
+    z-index: 998;
+}
+
+.yashilBoshdugh {
+    width: 400px;
+    height: 800px;
+    background-color: #C2B25E;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    color: #C2B25E;
+    z-index: 1;
+}
+.divdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yaziyazi {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    z-index: 1000;
+    padding: 20px 0px 0px 20px;
+    background-color: #fff;
+    margin-left: 750px;
+    margin-top: 350px;
+
+}
+
+.yazyiboyuk {
+    margin: 10px;
+    font-size: 4em;
+    font-weight: 600;
+    height: 150px;
+}
+
+.yazikicik {
+    margin: 50px 10px 10px 10px;
+    font-size: 1.6em;
+    height: 100px;
+}
+
+.learnm {
+    color: #fff;
+    background-color: #C2B25E;
+    border: 3px solid #C2B25E;
+    width: 250px;
+    height: 67.5px;
+    border-radius: 50px;
+    transition: 1s;
+    font-size: 2em;
+
+
+}
+
+.learnm:hover {
+    transition: 1s;
+    width: 300px;
+    height: 90.5px;
+    font-size: 2.5em;
+}
+
+.learnm a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.learnm a:visited {
+    color: ;
+    #fff
+}
+
 p {
     font-size: 2em;
     overflow: auto;
     margin-top: 30px;
 }
+
 .section1 {
-    padding: 100px;
-    padding-top: 150px;
+
+    padding-top: 1000px;
+
 }
+
 .section1bashdiq {
     text-align: center;
     font-size: 3em;
     font-weight: 600;
 }
-.section1 p{
+
+.section1 p {
     text-align: center;
     font-size: 1.35em;
+    height: 45px;
 }
-.ourpplEsas{
+
+.ourpplEsas {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
-.ourppl{
+.ourppl {
     background-color: aqua;
     display: flex;
     align-items: center;
@@ -99,16 +213,17 @@ p {
     padding: 5px;
     box-shadow: 10px, 3px;
     transition: 0.8s;
-    
+
 
 }
-.ourppl:hover{
+
+.ourppl:hover {
     transition: 1s;
     width: 300px;
     height: 390px;
-    box-shadow: 10px, 3px;
-    
+    box-shadow: 10px 5px rgba(0, 0, 0, .3)
 }
+
 .profilepic {
     width: 150px;
     height: 150px;
@@ -116,27 +231,31 @@ p {
     margin-top: 10px;
 
 }
-.ourppl .ad{
+
+.ourppl .ad {
     font-weight: 700;
     font-size: 2em;
     height: 35px;
 }
+
 .vezife {
     height: 35px;
     font-size: 1.5em;
-    
+
 }
 
 
-.ulfti{
+.ulfti {
     display: flex;
     flex-direction: row;
 }
+
 .fti {
     padding: 10px;
     width: 50px;
 
 }
+
 footer {
     display: flex;
     background-color: rgb(181, 115, 115);
@@ -145,5 +264,74 @@ footer {
     width: 100%;
     height: 100px;
     justify-content: center;
-    justify-self:center;
+    justify-self: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+.section2 img {
+    width: 750px;
+
+}
+
+.contactus,
+.textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.name,
+.email {
+    width: 500px;
+    height: 10px;
+    border: 5px solid #fff;
+    box-shadow: 0px 3px;
+    margin-top: 10px;
+}
+
+.textarea {
+    border: #fff;
+    box-shadow: 0px 3px;
+    padding-top: 10px;
+}
+
+#name,
+#email,
+#textarea {
+    margin-top: 10px;
+}
+
+.sendbtn {
+    width: 200px;
+    height: 70px;
+    background-color: #C2B25E;
+    border-radius: 50px;
+    font-size: 2em;
+    transition: 0.5s;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 160px;
+
+}
+
+.sendbtn:hover {
+    transition: 0.3s;
+    width: 240px;
+    height: 90px;
+    font-size: 3em;
+    color: #fff;
+
+
+}
+
+.searchbtn:visited {
+    color: #fff;
 }
