@@ -1,0 +1,149 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: turquoise;
+}
+header {
+    display: block;
+    
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(47, 164, 152);
+    z-index: 999;
+    margin: 0 0 30px;
+}
+
+.logo {
+    width: 70px;
+    padding: 10px;
+    transition: 0.8s;
+}
+.logo:hover{
+    transition:1s;
+    width: 100px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.search {
+    width: 300px;
+    box-shadow: 0 5px 10px;
+    border-radius: 50px;
+    height: 25px;
+}
+.searchbtn {
+    width: 110px;
+    box-shadow: 0 5px 10px;
+    border-radius: 50px;
+    height: 25px;
+}
+.searchbtn:hover {
+    width: 120px;
+    transition: 0.5s;
+    height: 28px;
+}
+.HCA {
+    text-decoration: solid;
+    color: green;
+    padding-right: 20px;
+    gap: 20px;
+    font-size: 2em;
+    transition: 0.5s;
+}
+.HCA:hover {
+    color: rgb(1, 73, 1);
+    transition: 0.5s;
+    font-size: 2.5em;
+}
+p {
+    font-size: 2em;
+    overflow: auto;
+    margin-top: 30px;
+}
+.section1 {
+    padding: 100px;
+    padding-top: 150px;
+}
+.section1bashdiq {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+.section1 p{
+    text-align: center;
+    font-size: 1.35em;
+}
+.ourpplEsas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ourppl{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    height: 350px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    box-shadow: 10px, 3px;
+    transition: 0.8s;
+    
+
+}
+.ourppl:hover{
+    transition: 1s;
+    width: 300px;
+    height: 390px;
+    box-shadow: 10px, 3px;
+    
+}
+.profilepic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 10px;
+
+}
+.ourppl .ad{
+    font-weight: 700;
+    font-size: 2em;
+    height: 35px;
+}
+.vezife {
+    height: 35px;
+    font-size: 1.5em;
+    
+}
+
+
+.ulfti{
+    display: flex;
+    flex-direction: row;
+}
+.fti {
+    padding: 10px;
+    width: 50px;
+
+}
+footer {
+    display: flex;
+    background-color: rgb(181, 115, 115);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    justify-self:center;
+}
